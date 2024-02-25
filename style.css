@@ -1,0 +1,111 @@
+ body {
+    overflow-x: hidden;
+}
+
+#home {
+    background-color: #e5f1f5;
+}
+
+#calc {
+    background-color: #f9c3d0;
+    border-radius: 10px;
+    
+}
+
+#calc h2 {
+    color: darkblue;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+}
+#calc h2 img{
+    height: 100px;
+    width: 100px;
+}
+#h4{
+    margin-left: 108px;
+    margin-top: -35px;
+    color: rgb(6, 84, 114);
+    font-weight: 400;
+    
+}
+
+#calc button{
+    background-color:darkblue;
+    color: white;
+    border: none;
+    width: 90px;
+    height: 35px;
+}
+#calc h5{
+    font-weight: 400;
+    margin-bottom: 15px;
+    color: rgb(6, 84, 114);
+}
+
+.info{
+    text-align: justify;
+}
+.info h3{
+    color: darkblue;
+    margin-left: 50px;
+
+}
+
+.info p{
+    margin-left: 50px;
+    color: rgb(6, 84, 114);
+    margin-top: 20px;
+    text-align: justify;
+    margin-bottom: 20px;
+    margin-right: 50px;
+}
+#box{
+    margin-left: 60px;
+    width: 500px;
+}
+#box h6{
+    color: rgb(6, 84, 114);
+    margin-top: 20px;
+    text-align: justify;
+    margin-bottom: 20px;
+   
+}
+.gender-options {
+    display: flex;
+    gap: 10px;
+}
+
+.gender-button {
+    display: inline-block;
+    border-radius: 5px;
+    padding: 5px;
+    width: 90px;
+    height: 35px;
+    cursor: pointer;
+    border: 2px solid rgb(6, 84, 114);
+    background-color: white;
+    color: rgb(6, 84, 114);
+}
+
+.gender-button input {
+    display: none; /* Hide the actual radio button */
+}
+.gender-button.selected {
+    background-color: rgb(6, 84, 114);
+    color: white;
+} 
+
+.line-graph {
+    position: relative;
+    height: 20px; /* Adjust the height of the line */
+    background-color: #eee;
+    margin-top: 20px;
+}
+
+
+
+.line-section {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to right, #FFFF00 0%, #00FF00 25%, #FFA500 50%, #FF0000 75%); /* Adjust the colors */
+}
